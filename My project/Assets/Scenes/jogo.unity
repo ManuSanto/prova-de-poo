@@ -643,6 +643,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24484a40890d5f408030b10638eb6de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Personagem: {fileID: 0}
+  sliderV1das: {fileID: 0}
+  sliderEnergia: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,6 +1276,7 @@ GameObject:
   - component: {fileID: 1958381745}
   - component: {fileID: 1958381748}
   - component: {fileID: 1958381747}
+  - component: {fileID: 1958381749}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Inimigo
@@ -1427,6 +1431,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1958381749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958381744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622aa0f2f5f4e7348af6b4d9ebb14537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagDoPlayer: Player
+  dano: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
