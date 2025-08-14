@@ -1,28 +1,21 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class PanelDeVida : MonoBehaviour
 {
-
     public Personagem Personagem;
-
-    public Slider sliderV1das;
+    public Slider sliderVidas;
     public Slider sliderEnergia;
-    
     void Start()
     {
-        sliderV1das.maxValue =0;
-        sliderEnergia.CloneViaFakeSerialization().maxValue = Personagem.getVidas();
-        
-        sliderEnergia.maxValue = 0;
+        sliderVidas.maxValue = Personagem.getVidas();
         sliderEnergia.maxValue = Personagem.getEnergia();
-        
     }
 
-   
     void Update()
     {
-        sliderV1das.value = Personagem.getVidas();
+        // Atualiza os valores das barras
+        sliderVidas.value = Personagem.getVidas();
         sliderEnergia.value = Personagem.getEnergia();
     }
 }

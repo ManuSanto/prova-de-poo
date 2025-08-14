@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 182980b8ec3520148b408f02ba850116
+guid: 473139928a504e54fa8b30bc60824da7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6122349293346651858
-    second: UI_TravelBook_BookPageLeft01a_0
+      213: -1866502661102261482
+    second: UI_TravelBook_BookCover01a_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_TravelBook_BookPageLeft01a_0
+      name: UI_TravelBook_BookCover01a_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 104
-        height: 147
+        width: 224
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 74, y: 53, z: 77, w: 63}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2de7ac4ae34f6f450800000000000000
-      internalID: 6122349293346651858
+      spriteID: 61bada808b9d816e0800000000000000
+      internalID: -1866502661102261482
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bc7d7e495ac768748b32ac6112c4c225
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_TravelBook_BookCover01a_0: -1866502661102261482
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
